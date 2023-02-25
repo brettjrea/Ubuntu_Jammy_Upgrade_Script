@@ -1,6 +1,6 @@
-# Debian_Bullseye_Upgrade_Script
+# Ubuntu_Jammy_Upgrade_Script
 
-Upgrade Debian Buster to Bullseye with upgrade.sh
+Upgrade Ubuntu Focal to Jammy with upgrade.sh
 
 Verified still working 2022 but needed to manually install wget
 
@@ -10,7 +10,7 @@ Verified still working 2022 but needed to manually install wget
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y &&
 sudo apt install wget &&
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
-wget https://raw.githubusercontent.com/brettjrea/Debian_Bullseye_Upgrade_Script/master/upgrade.sh &&
+wget https://raw.githubusercontent.com/brettjrea/Ubuntu_Jammy_Upgrade_Script/master/upgrade.sh &&
 sudo bash fixscripts.sh &&
 sudo bash upgrade.sh && 
 sudo apt autoremove -y &&
@@ -39,7 +39,7 @@ sudo apt install wget
 
 ```
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
-wget https://raw.githubusercontent.com/brettjrea/Debian_Bullseye_Upgrade_Script/master/upgrade.sh &&
+wget https://raw.githubusercontent.com/brettjrea/Ubuntu_Jammy_Upgrade_Script/master/upgrade.sh &&
 ```
 
 ### Run scripts:
