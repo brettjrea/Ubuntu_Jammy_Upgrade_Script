@@ -32,7 +32,7 @@ sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
 ### Install required programs:
 
 ```
-sudo apt install wget
+sudo apt install wget -y
 ```
 
 ### Download scripts:
