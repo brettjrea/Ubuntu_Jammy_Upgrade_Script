@@ -1,6 +1,6 @@
 #!/bin/bash
 ### Disable Prompts.
-DEBIAN_FRONTEND=noninteractive
+export DEBIAN_FRONTEND=noninteractive
 ###Update & Upgrade.
 apt update -y && apt dist-upgrade -y
 ###Configure available releases to LTS.
