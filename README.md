@@ -8,7 +8,7 @@ Verified still working 2022 but needed to manually install wget
 
 ```
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y &&
-sudo apt install wget &&
+sudo apt install wget -y &&
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
 wget https://raw.githubusercontent.com/brettjrea/Ubuntu_Jammy_Upgrade_Script/master/upgrade.sh &&
 sudo bash fixscripts.sh &&
