@@ -76,4 +76,6 @@ set -o vi
 
 ---
 
+*You might now want to [Install NVS](https://github.com/brettjrea/Debian_Install_NVS)*
+
 *You might now want to [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)*
