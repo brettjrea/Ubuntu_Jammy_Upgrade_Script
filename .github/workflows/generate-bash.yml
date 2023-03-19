@@ -17,7 +17,7 @@ jobs:
 
       - name: Copy ubuntu-jammy-upgrade-script.sh
         run: |
-          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/bash/ubuntu-jammy-upgrade-script.sh --output debian-bullseye-upgrade-script.sh
+          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/bash/ubuntu-jammy-upgrade-script.sh --output ubuntu-jammy-upgrade-script.sh
       
 
       - name: Auto commit
