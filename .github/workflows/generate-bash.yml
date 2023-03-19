@@ -15,12 +15,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Copy debian-bullseye-upgrade-script.sh
+      - name: Copy ubuntu-jammy-upgrade-script.sh
         run: |
-          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/bash/debian-bullseye-upgrade-script.sh --output debian-bullseye-upgrade-script.sh
+          curl -sS https://raw.githubusercontent.com/brettjrea/GitHub_Generate_Readme/main/bash/ubuntu-jammy-upgrade-script.sh --output debian-bullseye-upgrade-script.sh
       
 
       - name: Auto commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Auto commit copied debian-bullseye-upgrade-script.sh'
+          commit_message: 'Auto commit copied ubuntu-jammy-upgrade-script.sh'
